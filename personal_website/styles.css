@@ -1,0 +1,160 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+/* div{
+  border: 1px solid red;
+} */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+#topbar{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+#name{
+  position: relative;
+  font-size: 3em;
+  display: flex;
+  /* align-self: center; */
+  justify-content: center;
+  align-content: center;
+  top: 25vh;
+  font-family: 'Vollkorn', serif;
+  color: aliceblue;
+  font-size: 200px;
+}
+
+header {
+  /* background-color: #333; */
+  /* color: #fff; */
+  /* padding: 10px 0; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url(./img6.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.section {
+  height: 100vh; /* Set height to 100% of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Adjust specific section styles if needed */
+#about {
+  background-color: #f7f7f7;
+  background-image: url(./img5.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+}
+
+#skills {
+  background-color: #e0e0e0;
+  background-image: url(./img3.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#skillhead{
+  font-family: 'Vollkorn', serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+#skill-list{
+  /* padding: 10%; */
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#hobbies {
+  background-color: #f7f7f7;
+  background-image: url(./img4.jpeg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+}
+#hobbhead{
+  font-family: 'Vollkorn', serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section {
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#about {
+  background-color: #f7f7f7;
+}
+
+#skills {
+  background-color: #e0e0e0;
+}
+
+#hobbies {
+  background-color: #f7f7f7;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
